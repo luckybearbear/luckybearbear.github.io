@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: luckybearbear`s blog
 subtitle:
-description:
+description: '时刻提醒自己是一个菜鸟'
 keywords:
-author: John Doe
-language:
+author: luckybearbear
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://luckybearbear.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -27,6 +27,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+  - CNAME
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -73,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +83,10 @@ deploy:
   type: git
   repo: https://github.com/luckybearbear/luckybearbear.github.io
   branch: master
+
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 0
+
+plugins: hexo-generate-feed
