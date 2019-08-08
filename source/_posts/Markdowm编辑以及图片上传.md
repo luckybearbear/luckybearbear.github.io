@@ -2,8 +2,9 @@
 title: Markdowm编辑以及图片上传
 date: 2019-08-08 13:51:39
 tags:
+categories: 工具
 ---
-
+<!-- more -->
 ## 图片上传工具 PicGO
 
 ## markdown工具 Typora
