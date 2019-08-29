@@ -2,6 +2,7 @@
 title: nginx配置ssl证书
 date: 2019-08-08 15:06:07
 tags: nginx
+categories: 工具
 ---
 配置如下
 <!-- more -->
