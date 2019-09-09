@@ -2,6 +2,7 @@
 title: docker常用命令
 date: 2019-08-08 14:40:11
 tags: docker
+categories: 工具
 ---
 
 # docker logs 查看实时日志

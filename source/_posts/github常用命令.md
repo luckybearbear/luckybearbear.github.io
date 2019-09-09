@@ -2,6 +2,7 @@
 title: github常用命令
 date: 2019-08-08 14:18:42
 tags: github
+categories: 工具
 ---
 ## 查看这个月star最多的项目
 ```aidl

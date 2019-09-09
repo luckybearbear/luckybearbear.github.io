@@ -2,6 +2,7 @@
 title: redis开机自启
 date: 2019-08-08 15:27:25
 tags: redis
+categories: 工具
 ---
 # window
 ```
