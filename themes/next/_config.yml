@@ -814,3 +814,16 @@ images: images
 version: 5.1.4
 # Fireworks
 fireworks: true
+
+#萌宠
+live2d:
+  enable: true
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: right
+    width: 140
+    height: 260
+  mobile:
+    show: true
