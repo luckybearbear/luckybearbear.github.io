@@ -8,6 +8,15 @@ categories: 工具
 ```
 redis-server --service-install redis.windows.conf --loglevel verbose 
 ```
+1、安装service服务
+    redis-server --service-install redis.windows.conf --service-name redis6379
+2、启动service服务
+   redis-server --service-start
+3、停止命令
+   redis-server --service-stop 
+4、卸载命令
+  redis-server --service-uninstall --service-name redis6379
+
 # linux
 ## 设置redis.conf中daemonize为yes,确保守护进程开启。
  查找redis配置文件redis.conf
