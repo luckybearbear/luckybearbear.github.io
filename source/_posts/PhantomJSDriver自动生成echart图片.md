@@ -162,4 +162,13 @@ public class PhantomJSDriverUtil {
 }
 
 ```
+# html写法
+```js
+function returnEchartImg(echartObj) {
+        return echartObj.getDataURL();
+    }
+```
 
+# 问题汇总
+## echart图片在outlook客户端查看是显示黑底
+option 缺少 `backgroundColor:'#FFFFFF',`
