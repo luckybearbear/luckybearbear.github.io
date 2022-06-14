@@ -54,7 +54,7 @@ chkconfig docker on         #加入开机启动
 ```
 # 查看Docker版本
 ```
-docker --help #帮助
+docker --help #帮助 
 docker –v #简单查看版本
 docker version #查看版本
 ```
