@@ -1,6 +1,9 @@
 ---
+tags:
+  - Git
+  - GitHub
 created: 2025-10-29T14:48
-updated: 2025-11-04T13:45
+updated: 2025-11-04T13:54
 share: true
 ---
 
