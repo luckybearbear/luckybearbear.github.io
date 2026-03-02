@@ -1,8 +1,8 @@
 ---
 publish: true
 aliases: ""
-created: 2026-02-27T22:12:20.318+08:00
-modified: 2026-03-02T14:44:07.117+08:00
+created: 2026-02-27
+modified: 2026-03-02
 tags:
   - todo/某天
 cssclasses: ""
@@ -19,6 +19,6 @@ cssclasses: ""
 
 [Index of /anaconda/archive/ \| 清华大学开源软件镜像站 \| Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
 
-## Windows安装教程1121
+## Windows安装教程
 
 https://blog.csdn.net/qq_44000789/article/details/142214660
