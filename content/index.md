@@ -1,7 +1,7 @@
 ---
 title: 我的知识库首页  # 页面标题（浏览器标签）
 description: 基于 Obsidian + Quartz 4 搭建的个人知识库  # SEO 描述
-permalink: /  # 固定首页路径（必须为 /）
+permalink: /index.md  # 固定首页路径（必须为 /）
 draft: false  # 设为 false 才会发布
 date: 2026-03-02  # 发布日期
 ---
