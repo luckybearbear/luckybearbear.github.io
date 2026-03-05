@@ -26,9 +26,16 @@ export type CSSResource = {
 export function JSResourceToScriptElement(resource: JSResource, preserve?: boolean): JSX.Element {
   const scriptType = resource.moduleType ?? "application/javascript"
   const spaPreserve = preserve ?? resource.spaPreserve
+<<<<<<< HEAD
   if (resource.contentType === "external") {
     return (
       <script key={resource.src} src={resource.src} type={scriptType} spa-preserve={spaPreserve} />
+=======
+
+  if (resource.contentType === "external") {
+    return (
+      <script key={resource.src} src={resource.src} type={scriptType} data-persist={spaPreserve} />
+>>>>>>> upstream/v4
     )
   } else {
     const content = resource.script
@@ -36,7 +43,11 @@ export function JSResourceToScriptElement(resource: JSResource, preserve?: boole
       <script
         key={randomUUID()}
         type={scriptType}
+<<<<<<< HEAD
         spa-preserve={spaPreserve}
+=======
+        data-persist={spaPreserve}
+>>>>>>> upstream/v4
         dangerouslySetInnerHTML={{ __html: content }}
       ></script>
     )
@@ -54,7 +65,11 @@ export function CSSResourceToStyleElement(resource: CSSResource, preserve?: bool
         href={resource.content}
         rel="stylesheet"
         type="text/css"
+<<<<<<< HEAD
         spa-preserve={spaPreserve}
+=======
+        data-persist={spaPreserve}
+>>>>>>> upstream/v4
       />
     )
   }
