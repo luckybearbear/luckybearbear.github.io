@@ -9,13 +9,10 @@ html {
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
-<<<<<<< HEAD
-=======
 
   @media all and ($mobile) {
     scroll-padding-top: 4rem;
   }
->>>>>>> upstream/v4
 }
 
 body {
@@ -48,24 +45,17 @@ ul,
 .katex,
 .math,
 .typst-doc,
-<<<<<<< HEAD
-.typst-doc * {
-=======
 g[class~="typst-text"] {
->>>>>>> upstream/v4
   color: var(--darkgray);
   fill: var(--darkgray);
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
 
-<<<<<<< HEAD
-=======
 path[class~="typst-shape"] {
   stroke: var(--darkgray);
 }
 
->>>>>>> upstream/v4
 .math {
   &.math-display {
     text-align: center;
