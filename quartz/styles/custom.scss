@@ -1,3 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// 全局 CSS 变量（修改后全站生效）
+:root {
+  // 主色（导航栏、链接、按钮等）
+  --primary: #2563eb; // 蓝色（可替换为 #ff4d4f 红色、#10b981 绿色等）
+  // 副色（边框、次要文字）
+  --secondary: #64748b;
+  // 背景色（页面底色）
+  --background: #f8fafc;
+  // 卡片/面板背景
+  --card-bg: #ffffff;
+  // 文字主色
+  --text: #1e293b;
+  // 次要文字色
+  --text-secondary: #64748b;
+}
+
+// 暗色模式下的主题色（可选）
+[data-theme="dark"] {
+  --primary: #3b82f6;
+  --background: #0f172a;
+  --card-bg: #1e293b;
+  --text: #f8fafc;
+}
