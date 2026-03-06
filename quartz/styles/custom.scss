@@ -1,26 +1,33 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-// 全局 CSS 变量（修改后全站生效）
-:root {
-  // 主色（导航栏、链接、按钮等）
-  --primary: #2563eb; // 蓝色（可替换为 #ff4d4f 红色、#10b981 绿色等）
-  // 副色（边框、次要文字）
-  --secondary: #64748b;
-  // 背景色（页面底色）
-  --background: #f8fafc;
-  // 卡片/面板背景
-  --card-bg: #ffffff;
-  // 文字主色
-  --text: #1e293b;
-  // 次要文字色
-  --text-secondary: #64748b;
+// 自定义样式
+.content {
+  h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+  }
+ 
+  blockquote {
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+ 
+  code {
+    background-color: #f1f2f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'JetBrains Mono', monospace;
+  }
 }
-
-// 暗色模式下的主题色（可选）
-[data-theme="dark"] {
-  --primary: #3b82f6;
-  --background: #0f172a;
-  --card-bg: #1e293b;
-  --text: #f8fafc;
+ 
+// 响应式设计
+@media (max-width: 768px) {
+  .content {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
 }
