@@ -1,6 +1,6 @@
 ---
 publish: true
-aliases: "11"
+aliases: ""
 title: 数字花园
 created: 2024-11-22T12:10:03.979Z
 modified: 2026-03-04
