@@ -30,6 +30,11 @@ jobs:
         run: npx quartz build
       - name: Add .nojekyll
         run: touch public/.nojekyll   # 在构建产物中添加空文件
+      - name: Remove file if it exists
+        run: |
+          if [ -f "public/.html" ]; then
+            rm public/.html
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
