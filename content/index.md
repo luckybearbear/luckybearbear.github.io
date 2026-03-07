@@ -1,8 +1,10 @@
 ---
 publish: true
+aliases: ""
 title: 数字花园
 created: 2024-11-22T12:10:03.979Z
 modified: 2026-03-04
+cssclasses: ""
 ---
 
 
@@ -15,4 +17,4 @@ modified: 2026-03-04
 ## 关于我
 
 - 基于 Obsidian 管理私库，通过 Quartz 4 自动发布
-- 持续更新，欢迎探索！111
+- 持续更新，欢迎探索！
